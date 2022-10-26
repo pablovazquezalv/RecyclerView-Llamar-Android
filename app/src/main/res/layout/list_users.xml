@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@color/black"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Nombre:"
+        android:textColor="@color/white"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        android:text="Telefono:"
+        android:textColor="@color/white"
+        android:gravity="center|top"
+        />
+
+</FrameLayout>
